@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import NavbarDesktop from "./components/Navbar/NavbarDesktop";
+import EventDetail from "./pages/EventDetail";
 import Events from "./pages/Events";
 import Home from "./pages/Home";
 
@@ -14,6 +15,7 @@ function App() {
             <NavbarDesktop />
             <Switch>
               <Route path="/events" component={Events} />
+              <Route path="/event/:id" component={EventDetail} />
               <Route path="/" component={Home} />
             </Switch>
           </div>
