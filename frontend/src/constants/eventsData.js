@@ -45,9 +45,9 @@ export const eventsData = [
   },
   {
     id: 4,
-    beachName: "Cobourg Beach",
-    beachProvinceLong: "Ontario",
-    beachProvinceShort: "ON",
+    beachName: "Grand Beach",
+    beachProvinceLong: "Manitoba",
+    beachProvinceShort: "MB",
     organizerName: "SmileBeach (Non-Profit)",
     imageFileName: "beach-5.jpeg",
     startTime: new Date(2021, 6, 15, 10),
