@@ -1,3 +1,12 @@
+import beach1 from "../assets/beach-1.jpeg";
+import beach2 from "../assets/beach-2.jpg";
+import beach3 from "../assets/beach-3.jpg";
+import beach4 from "../assets/beach-4.jpg";
+import beach5 from "../assets/beach-5.jpeg";
+import beach6 from "../assets/beach-6.jpeg";
+import beach7 from "../assets/beach-7.jpeg";
+import beach8 from "../assets/beach-8.jpg";
+
 export const eventsData = [
   {
     id: 0,
@@ -9,6 +18,7 @@ export const eventsData = [
     startTime: new Date(2021, 6, 4, 15),
     endTime: new Date(2021, 6, 10, 13),
     timeLeft: "4 days 3 hours",
+    image: beach1,
   },
   {
     id: 1,
@@ -20,6 +30,7 @@ export const eventsData = [
     startTime: new Date(2021, 6, 8, 18),
     endTime: new Date(2021, 6, 12, 18),
     timeLeft: "10 days",
+    image: beach2,
   },
   {
     id: 2,
@@ -31,6 +42,7 @@ export const eventsData = [
     startTime: new Date(2021, 7, 4, 20),
     endTime: new Date(2021, 7, 5, 20),
     timeLeft: "1 month",
+    image: beach3,
   },
   {
     id: 3,
@@ -42,6 +54,7 @@ export const eventsData = [
     startTime: new Date(2021, 8, 10, 15),
     endTime: new Date(2021, 8, 18, 15),
     timeLeft: "2 months",
+    image: beach4,
   },
   {
     id: 4,
@@ -53,6 +66,7 @@ export const eventsData = [
     startTime: new Date(2021, 6, 15, 10),
     endTime: new Date(2021, 6, 15, 18),
     timeLeft: "9 days",
+    image: beach5,
   },
   {
     id: 5,
@@ -64,6 +78,7 @@ export const eventsData = [
     startTime: new Date(2021, 6, 8, 7),
     endTime: new Date(2021, 6, 16, 7),
     timeLeft: "10 days",
+    image: beach6,
   },
   {
     id: 6,
@@ -75,6 +90,7 @@ export const eventsData = [
     startTime: new Date(2021, 6, 20, 9),
     endTime: new Date(2021, 6, 21, 9),
     timeLeft: "15 days",
+    image: beach7,
   },
   {
     id: 7,
@@ -86,5 +102,6 @@ export const eventsData = [
     startTime: new Date(2021, 7, 4, 10),
     endTime: new Date(2021, 7, 12, 11),
     timeLeft: "1 month",
+    image: beach8,
   },
 ];

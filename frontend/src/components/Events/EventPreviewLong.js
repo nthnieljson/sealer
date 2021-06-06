@@ -40,7 +40,11 @@ const EventPreviewLong = ({ id }) => {
               borderRadius: "9px",
             }}
           >
-            <img src="assets/location-icon.png" style={{ width: "10px" }} />
+            <img
+              src="assets/location-icon.png"
+              style={{ width: "10px" }}
+              alt="location"
+            />
             <p
               className="ml-2"
               style={{

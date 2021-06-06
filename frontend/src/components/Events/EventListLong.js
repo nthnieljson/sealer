@@ -5,9 +5,9 @@ const EventListLong = () => {
   const helper = [0, 0, 0, 0, 0, 0];
   return (
     <div className="row">
-      {helper.map((_) => {
+      {helper.map((_, idx) => {
         return (
-          <div className="col-2">
+          <div className="col-2" key={idx}>
             <EventPreviewShort />
           </div>
         );

@@ -13,7 +13,7 @@ const Events = () => {
     <div>
       <div className="container mt-5">
         <div className="search-input-container d-flex align-items-center">
-          <img src="assets/search-icon.png" />
+          <img src="assets/search-icon.png" alt="search" />
           <input
             className="search-input ml-3"
             style={{
