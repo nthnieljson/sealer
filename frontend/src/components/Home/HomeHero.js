@@ -20,7 +20,7 @@ const HomeHero = () => {
             Organize clean-up events at a local beach or shoreline
           </h4>
           <div className="d-flex justify-content-center new-event-container">
-            <Link className="new-event-link" to="/">
+            <Link className="new-event-link" to="/create-event">
               <div className="d-flex justify-content-center align-items-center new-event mt-5">
                 Create your own event
                 <img
