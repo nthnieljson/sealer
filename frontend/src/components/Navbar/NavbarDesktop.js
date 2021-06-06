@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import sealerLogo from "../../assets/sealer-logo.png";
 
 const NavbarDesktop = () => {
   const navbarItems = [
@@ -21,7 +22,7 @@ const NavbarDesktop = () => {
       <div className="container d-flex justify-content-between">
         <div className="nav-desktop-left">
           <Link to="/">
-            <img src="assets/sealer-logo.png" alt="sealer-logo"></img>
+            <img src={sealerLogo} alt="sealer-logo"></img>
           </Link>
         </div>
         <div className="d-flex justify-content-center align-items-center nav-desktop-right">

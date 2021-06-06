@@ -1,4 +1,5 @@
 import React from "react";
+import sealerLogo from "../../assets/sealer-logo.png";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="footer">
         <div className="d-flex justify-content-center footer-top">
           <hr className="white-line" />
-          <img src="assets/sealer-logo.png" alt="sealer-logo-footer" />
+          <img src={sealerLogo} alt="sealer-logo-footer" />
           <hr className="white-line" />
         </div>
         <div className="d-flex justify-content-around align-items-center mt-5 text-center footer-mid">

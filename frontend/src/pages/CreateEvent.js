@@ -1,12 +1,13 @@
 import React from "react";
 import uploadIcon from "../assets/upload-icon.png";
+import createEventBG from "../assets/create-event-bg.png";
 
 const CreateEvent = () => {
   return (
     <div>
       <div
         style={{
-          backgroundImage: `url(assets/create-event-bg.png)`,
+          backgroundImage: `url(${createEventBG})`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
