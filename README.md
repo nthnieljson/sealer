@@ -32,11 +32,18 @@ List the ready features here:
 
 
 ## Screenshots
+1. Landing Page
 ![Landing Page - 1](./screenshots/landing-page-1.png)
+
+2. Beach Cleanup Events List
 ![Cleanup Events List - 1](./screenshots/events-1.png)
+
+3. Beach Cleanup Event Details
 ![Cleanup Events Details - 1](./screenshots/event-details-1.png)
 ![Cleanup Events Details - 2](./screenshots/event-details-2.png)
 ![Cleanup Events Details - 3](./screenshots/event-details-3.png)
+
+4. Create Event
 ![Create Event - 1](./screenshots/create-event-1.png)
 
 
