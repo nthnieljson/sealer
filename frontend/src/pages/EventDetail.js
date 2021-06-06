@@ -293,6 +293,7 @@ const EventDetail = () => {
                       fontSize: "1rem",
                       color: "#363636",
                       fontWeight: "400",
+                      width: "100%",
                     }}
                   >
                     {review}
