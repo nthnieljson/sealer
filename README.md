@@ -32,8 +32,13 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+![Landing Page - 1](./screenshots/landing-page-1.png)
+![Cleanup Events List - 1](./screenshots/events-1.png)
+![Cleanup Events Details - 1](./screenshots/event-details-1.png)
+![Cleanup Events Details - 2](./screenshots/event-details-2.png)
+![Cleanup Events Details - 3](./screenshots/event-details-3.png)
+![Create Event - 1](./screenshots/create-event-1.png)
+
 
 
 ## Setup
