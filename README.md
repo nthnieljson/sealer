@@ -1,6 +1,5 @@
 # Sealer
 > Sealer provides a solution in the form of a **website where anyone can organize beach cleanup events**. And volunteers or even your average joe who are interested in joining beach cleanups can participate without any hassle. We also serve as intermediaries between trash recycling plants and the cleanup organizers so that the collected trash are handled properly afterwards.
-> This is a link to our Devpost Project [_here_](https://www.example.com). 
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -9,7 +8,6 @@
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Usage](#usage)
-* [Project Status](#project-status)
 * [Contact](#contact)
 <!-- * [License](#license) -->
 
@@ -22,9 +20,8 @@ Around 15% of those marine debris usually end up back on our beaches, and when t
 Thus, we decided to make Sealer as a solution for this problem.
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- React
+- Node.js
 
 
 ## Features
@@ -40,20 +37,15 @@ List the ready features here:
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
+1. install node.js (https://nodejs.org/en/download/)
+2. install NPM (https://www.npmjs.com/get-npm)
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+1. go to the frontend directory by using command `cd frontend`
+2. install all dependencies by using command `npm install`
+3. start the program by using command `npm start`
+4. open your browser, and go to localhost:3000
 
-`write-your-code-here`
-
-
-## Project Status
-Project is:  _complete_ 
 
 ## Contact
 Created by : [@nthnieljson](https://github.com/nthnieljson), [@jamesteguh](https://github.com/jamesteguh), and [@mdrfaza](https://github.com/MDrFaza) - feel free to contact us!
