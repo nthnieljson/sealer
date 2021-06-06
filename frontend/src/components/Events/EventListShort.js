@@ -1,14 +1,13 @@
 import React from "react";
 import EventPreviewLong from "./EventPreviewLong";
 
-const EventListShort = () => {
-  const helper = [0, 1, 2, 3];
+const EventListShort = ({ ids }) => {
   return (
     <div className="row">
-      {helper.map((_) => {
+      {ids.map((id, idx) => {
         return (
-          <div className="col-3">
-            <EventPreviewLong />
+          <div className="col-3" key={idx}>
+            <EventPreviewLong id={id} />
           </div>
         );
       })}

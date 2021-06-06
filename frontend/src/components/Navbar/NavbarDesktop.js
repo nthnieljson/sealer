@@ -25,9 +25,9 @@ const NavbarDesktop = () => {
           </Link>
         </div>
         <div className="d-flex justify-content-center align-items-center nav-desktop-right">
-          {navbarItems.map((navbarItem) => {
+          {navbarItems.map((navbarItem, idx) => {
             return (
-              <div className="ml-3 mr-3">
+              <div className="ml-3 mr-3" key={idx}>
                 <Link to={navbarItem.route} className="nav-desktop-link">
                   {navbarItem.name}
                 </Link>

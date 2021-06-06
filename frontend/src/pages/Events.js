@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Events = () => {
+  const [search, setSearch] = useState("");
+
   return (
     <div>
-      <h1>Events page</h1>
+      <div className="container mt-5">
+        <div className="search-input d-flex align-items-center">
+          <input />
+        </div>
+      </div>
     </div>
   );
 };

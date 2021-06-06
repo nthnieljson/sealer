@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { eventsData } from "../../constants/eventsData";
 import { dateToDatetimeFormat } from "../../util/datetime";
 
-const EventPreviewLong = () => {
-  const eventData = eventsData[0];
+const EventPreviewLong = ({ id }) => {
+  const eventData = eventsData[id];
   return (
     <div>
       <div className="event-preview-lg">
