@@ -1,4 +1,5 @@
 import React from "react";
+import donation from "../../assets/donations-1.png";
 
 const EventPreviewShort = () => {
   return (
@@ -9,7 +10,7 @@ const EventPreviewShort = () => {
             width: "100%",
             height: "100px",
             overflow: "hidden",
-            backgroundImage: `url(assets/donations-1.png)`,
+            backgroundImage: `url(${donation})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             borderTopLeftRadius: "10px",

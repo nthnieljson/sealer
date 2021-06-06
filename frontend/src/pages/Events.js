@@ -1,6 +1,7 @@
 import React from "react";
 import EventListLong from "../components/Events/EventListLong";
 import EventListShort from "../components/Events/EventListShort";
+import searchIcon from "../assets/search-icon.png";
 
 const Events = () => {
   const eventsIDs = [
@@ -13,7 +14,7 @@ const Events = () => {
     <div>
       <div className="container mt-5">
         <div className="search-input-container d-flex align-items-center">
-          <img src="assets/search-icon.png" alt="search" />
+          <img src={searchIcon} alt="search" />
           <input
             className="search-input ml-3"
             style={{

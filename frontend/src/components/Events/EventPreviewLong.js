@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { eventsData } from "../../constants/eventsData";
 import { dateToDatetimeFormat } from "../../util/datetime";
+import locationIcon from "../../assets/location-icon.png";
 
 const EventPreviewLong = ({ id }) => {
   const eventData = eventsData[id];
@@ -13,7 +14,7 @@ const EventPreviewLong = ({ id }) => {
             width: "100%",
             height: "100px",
             overflow: "hidden",
-            backgroundImage: `url(assets/${eventData.imageFileName})`,
+            backgroundImage: `url(${eventData.image})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             borderTopLeftRadius: "10px",
@@ -40,11 +41,7 @@ const EventPreviewLong = ({ id }) => {
               borderRadius: "9px",
             }}
           >
-            <img
-              src="assets/location-icon.png"
-              style={{ width: "10px" }}
-              alt="location"
-            />
+            <img src={locationIcon} style={{ width: "10px" }} alt="location" />
             <p
               className="ml-2"
               style={{

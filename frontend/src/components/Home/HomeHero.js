@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import heroTopBg from "../../assets/home-hero-top-bg.png";
+import newBlack from "../../assets/new-black.png";
+import earthHome from "../../assets/earth-home.png";
 
 const HomeHero = () => {
   return (
@@ -23,17 +25,13 @@ const HomeHero = () => {
             <Link className="new-event-link" to="/create-event">
               <div className="d-flex justify-content-center align-items-center new-event mt-5">
                 Create your own event
-                <img
-                  className="ml-4"
-                  src="assets/new-black.png"
-                  alt="new-black-btn"
-                />
+                <img className="ml-4" src={newBlack} alt="new-black-btn" />
               </div>
             </Link>
           </div>
         </div>
         <div className="hero-bottom">
-          <img src="assets/earth-home.png" alt="earth-home" />
+          <img src={earthHome} alt="earth-home" />
         </div>
       </div>
       <style>
